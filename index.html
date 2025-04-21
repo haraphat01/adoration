@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
   <header>
     <div class="container">
@@ -20,7 +22,7 @@
         </div>
         <ul class="nav-menu">
           <li><a href="#home" class="active">Home</a></li>
-          <li><a href="#about">About Us</a></li>
+          <li><a href="#team">Our Team</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#sans">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -30,7 +32,8 @@
   </header>
 
   <section id="home" class="hero" style="position: relative; overflow: hidden;">
-    <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+    <video autoplay muted loop playsinline
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
       <source src="adoration.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -43,20 +46,39 @@
     </div>
   </section>
 
-  <section id="about" class="about">
+  <!-- <section id="about" class="about">
     <div class="container">
       <div class="section-header">
-        <h2>About Our Firm</h2>
+        <h2>Our Team</h2>
         <div class="underline"></div>
       </div>
       <div class="about-content">
         <div class="about-text">
-          <p>Adoration Chambers is a prestigious law firm with offices in Ilorin and Abuja, dedicated to providing exceptional legal services across Nigeria. Our team of experienced attorneys brings expertise across various practice areas.</p>
-          <p>Founded on the principles of integrity, excellence, and client satisfaction, we have built a reputation for delivering results and maintaining the highest ethical standards in legal practice.</p>
-          <p>Our attorneys have represented clients in landmark cases and have contributed significantly to the development of legal practice in Nigeria.</p>
+          <p>Adoration Chambers is a prestigious law firm with offices in Ilorin and Abuja, dedicated to providing
+            exceptional legal services across Nigeria. Our team of experienced attorneys brings expertise across various
+            practice areas.</p>
+          <p>Founded on the principles of integrity, excellence, and client satisfaction, we have built a reputation for
+            delivering results and maintaining the highest ethical standards in legal practice.</p>
+          <p>Our attorneys have represented clients in landmark cases and have contributed significantly to the
+            development of legal practice in Nigeria.</p>
         </div>
         <div class="about-image">
           <img src="/images/gold.jpg" alt="Adoration Chamber Office">
+        </div>
+      </div>
+    </div>
+  </section> -->
+  
+  <section id="team" class="team">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Teams</h2>
+        <div class="underline"></div>
+        <p>Meet our exceptional team of legal professionals dedicated to serving your needs</p>
+      </div>
+      <div class="team-container">
+        <div class="team-grid" id="team-grid">
+          <!-- Team members will be populated by JavaScript -->
         </div>
       </div>
     </div>
@@ -74,20 +96,22 @@
             <i class="fas fa-balance-scale"></i>
           </div>
           <h3>Corporate Law</h3>
-          <p>Business formation, mergers and acquisitions, corporate governance, and compliance.</p>
+          <p> Advisory opinions to our clients on due diligence and regulatory
+            requirements for filing of documents required under the different laws binding our
+            several clients.</p>
         </div>
         <div class="service-card">
           <div class="service-icon">
             <i class="fas fa-gavel"></i>
           </div>
-          <h3>Litigation</h3>
+          <h3> General Litigation</h3>
           <p>Civil litigation, dispute resolution, and representation in courts across Nigeria.</p>
         </div>
         <div class="service-card">
           <div class="service-icon">
             <i class="fas fa-home"></i>
           </div>
-          <h3>Real Estate</h3>
+          <h3>Commercial Real Estate</h3>
           <p>Property transactions, land disputes, leases, and real estate development.</p>
         </div>
         <div class="service-card">
@@ -102,36 +126,75 @@
             <i class="fas fa-users"></i>
           </div>
           <h3>Family Law</h3>
-          <p>Divorce, child custody, inheritance, and other family-related legal matters.</p>
+          <p>Divorce, child custody, inheritance, and other family-related legal matters under common law and islamic
+            law.</p>
         </div>
         <div class="service-card">
           <div class="service-icon">
             <i class="fas fa-landmark"></i>
           </div>
-          <h3>Constitutional Law</h3>
+          <h3> Commercial Arbitration
+            Work</h3>
           <p>Constitutional rights, administrative law, and public interest litigation.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-print"></i>
+          </div>
+          <h3> Administrative Law, Employment & Pension</h3>
+          <p> Advise on matters on pension trust, employment, and termination of employment and matters bothering on
+            administrative law.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-ship"></i>
+          </div>
+          <h3> Maritime</h3>
+          <p> Advise clients on purchase, sale and hire of vessels, financing & securing of maritime assets, regulations
+            and guidelines relating to vessels as prescribed by law.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+          <h3> Energy</h3>
+          <p> Give counsel on laws & regulation governing conduct of business in energy sector including financing of
+            projects and packaging of bids</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <h3> Telecommunications</h3>
+          <p> Giive counsel to telecommunications service providers on aspects of the nigerian telecommunication laws,
+            regulations and guidelines.</p>
         </div>
       </div>
     </div>
   </section>
+  
 
-  <section id="sans" class="sans">
+  <!-- <section id="sans" class="sans">
     <div class="container">
       <div class="section-header">
         <h2>Gallery</h2>
         <div class="underline"></div>
-        <p>Celebrating the distinguished Senior Advocates of Nigeria from Ilorin who have made significant contributions to legal practice</p>
+        <p>Celebrating the distinguished Senior Advocates of Nigeria from Ilorin who have made significant contributions
+          to legal practice</p>
       </div>
       <div class="gallery-container">
         <div class="gallery" id="sans-gallery">
-          <!-- Gallery items will be populated by JavaScript -->
-        </div>
+           Gallery items will be populated by JavaScript -->
+  <!-- </div>
         <div class="gallery-controls">
           <button id="prev-btn" class="gallery-btn"><i class="fas fa-chevron-left"></i></button>
           <button id="next-btn" class="gallery-btn"><i class="fas fa-chevron-right"></i></button>
         </div>
-      </div>
-    </div>
+      </div> -->
+  </div>
   </section>
 
   <section id="contact" class="contact">
@@ -154,7 +217,8 @@
               <div class="office-icon">
                 <i class="fas fa-phone"></i>
               </div>
-              <p>+234 123 456 7890</p>
+              <p>+2348051385695</p>
+              <p>+23433936177</p>
             </div>
           </div>
           <div class="office">
@@ -170,6 +234,7 @@
                 <i class="fas fa-phone"></i>
               </div>
               <p>+234 987 654 3210</p>
+              <p>+234 987 654 3210</p>
             </div>
           </div>
         </div>
@@ -179,13 +244,13 @@
             <div class="office-icon">
               <i class="fas fa-envelope"></i>
             </div>
-            <p>info@adorationchamber.com</p>
+            <p>adorationchambers1@yahoo.com</p>
           </div>
           <div class="office-details">
             <div class="office-icon">
               <i class="fas fa-envelope"></i>
             </div>
-            <p>cases@adorationchamber.com</p>
+            <p>adorationchambers2@gmail.com</p>
           </div>
         </div>
       </div>
@@ -220,10 +285,14 @@
       </div>
       <div class="footer-bottom">
         <p>&copy; 2025 Adoration Chamber. All Rights Reserved.</p>
+        <br>
+        <p> Made by Pencil Digitals <href>pencildigitals.com</href> </p>
       </div>
+
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>
